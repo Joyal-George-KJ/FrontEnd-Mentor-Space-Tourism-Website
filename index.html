@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <!-- <link href="https://fonts.cdnfonts.com/css/bellefair" rel="stylesheet"> -->
+  
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+    <div class="wrapper home">
+        <header>
+            <div class="logo">
+                <img src="assets/shared/logo.svg" alt="">
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+            <div class="nav">
+                <span class="blur-img display-none"></span>
+                <nav>
+                    <button style="display: none;"><img src="assets/shared/icon-hamburger.svg" alt="" onclick="navExpander()"></button>
+                    <ul class="display-none">
+                        <li><a href="./index.html" class="a-focused"><span class="number">00</span><span class="nav-item">Home</span></a></li>
+                        <li><a href="./destination.html"><span class="number">01</span><span class="nav-item">Destination</span></a></li>
+                        <li><a href="./crew.html"><span class="number">02</span><span class="nav-item">Crew</span></a></li>
+                        <li><a href="./technology.html"><span class="number">03</span><span class="nav-item">Technology</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="wrapper">
+            <div class="parts">
+                <div class="content-wrap">
+                    <h5>So, you want to travel to</h5>
+                    <h1>Space</h1>
+                    <p>  Let’s face it; if you want to go to space, you might as well genuinely go to
+                        outer space and not hover kind of on the edge of it. Well sit back, and relax
+                        because we’ll give you a truly out of this world experience!
+                    </p>
+                </div>
+            </div>
+            <div class="parts">
+                <div class="icon-wrap">
+                    <div class="button-wrap">
+                        <button class="button" onmouseover="exploreFocusedIn()" onmouseleave="exploreFocusedOut()"><h4>Explore</h4></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

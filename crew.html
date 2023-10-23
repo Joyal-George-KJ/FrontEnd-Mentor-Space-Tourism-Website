@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <!-- <link href="https://fonts.cdnfonts.com/css/bellefair" rel="stylesheet"> -->
+  
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+    <div class="wrapper crew">
+        <header>
+            <div class="logo">
+                <img src="assets/shared/logo.svg" alt="">
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+            <div class="nav">
+                <span class="blur-img display-none"></span>
+                <nav>
+                    <button style="display: none;"><img src="assets/shared/icon-hamburger.svg" alt="" onclick="navExpander()"></button>
+                    <ul class="display-none">
+                        <li><a href="./index.html"><span class="number">00</span><span class="nav-item">Home</span></a></li>
+                        <li><a href="./destination.html"><span class="number">01</span><span class="nav-item">Destination</span></a></li>
+                        <li><a href="./crew.html" class="a-focused"><span class="number">02</span><span class="nav-item">Crew</span></a></li>
+                        <li><a href="./technology.html"><span class="number">03</span><span class="nav-item">Technology</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="wrapper">  
+            <div class="parts">
+                <div class="content">
+                    <div class="head">
+                        <h4 class="lighter-text">01</h4> <h4 class="uppercase ms-1">Pick your destination</h4>
+                    </div><br>
+                    <div class="body">
+                        <h4 class="uppercase lighter-text">Commander</h4>
+                        <h3 class="uppercase">Douglas Hurley</h3>
+                        <p class="width-75">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                    </div>
+                    <div class="foot">
+                        <ul>
+                            <li><span class="small-circle focused" onclick="crewMenbersChanger(0)"></span></li>
+                            <li><span class="small-circle"  onclick="crewMenbersChanger(1)"></span></li>
+                            <li><span class="small-circle"  onclick="crewMenbersChanger(2)"></span></li>
+                            <li><span class="small-circle" onclick="crewMenbersChanger(3)"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="parts">
+                <img class="crew-member" src="assets/crew/image-douglas-hurley.webp" alt="${crew[index].name}">
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
