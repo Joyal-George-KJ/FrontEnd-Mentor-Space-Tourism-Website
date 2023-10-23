@@ -215,7 +215,7 @@ function technologyChanger(index) {
             </div>
         </div>
         <div class="parts">
-            <img style="margin: 0 7rem" src="assets/technology/image-${technology[index].image}" alt="">
+            <img style="margin: 0" src="assets/technology/image-${technology[index].image}" alt="">
         </div>
     `
 }
