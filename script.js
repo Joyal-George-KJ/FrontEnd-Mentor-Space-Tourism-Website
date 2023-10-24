@@ -209,7 +209,7 @@ function technologyChanger(index) {
                     <div class="technology-content">
                         <p class="uppercase sub-2">THE TERMINOLOGY… </p>
                         <h3 class="uppercase" style="width: 24ch;">${technology[index].name}</h3>
-                        <p class="width-75 sub-1">${technology[index].description}</p>
+                        <p class="width-75 sub-2">${technology[index].description}</p>
                     </div>
                 </div>
             </div>
