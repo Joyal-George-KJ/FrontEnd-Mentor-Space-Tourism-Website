@@ -545,7 +545,7 @@ span.big-circle {
         left: 3rem;
     }
 
-    .technology .nav button {
+/*     .technology .nav button {
         display: flex !important;
         z-index: 5;
         width: 3rem;
@@ -555,7 +555,7 @@ span.big-circle {
         position: absolute;
         top: 2rem;
         left: 80%;
-    }
+    } */
 
     .number {
         display: initial;
