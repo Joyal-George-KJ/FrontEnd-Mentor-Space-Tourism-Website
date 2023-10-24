@@ -96,7 +96,7 @@ function navExpander() {
 
     navSection.classList.toggle('display-none');
     navBlur.classList.toggle('display-none');
-    navButtonImg.src === `${hostOrigin}/assets/shared/icon-hamburger.svg` ? navButtonImg.src = `${hostOrigin}/assets/shared/icon-close.svg` : navButtonImg.src = `${hostOrigin}/assets/shared/icon-hamburger.svg`;
+    navButtonImg.src === `${hostOrigin}/FrontEnd-Mentor-Space-Tourism-Website/assets/shared/icon-hamburger.svg` ? navButtonImg.src = `${hostOrigin}/FrontEnd-Mentor-Space-Tourism-Website/assets/shared/icon-close.svg` : navButtonImg.src = `${hostOrigin}/FrontEnd-Mentor-Space-Tourism-Website/assets/shared/icon-hamburger.svg`;
 
 }
 
