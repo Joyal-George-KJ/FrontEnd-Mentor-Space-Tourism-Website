@@ -625,6 +625,10 @@ span.big-circle {
         width: 80%;
     }
 
+    .technology-content {
+        align-items: center;
+    }
+
     .technology-content p, h3 {
         width: auto !important;
     }
